@@ -32,7 +32,9 @@
 }
 
 .links {
-    align-self: auto;
+    display: flex;
+    justify-content: center;
+
 }
 
 footer {
