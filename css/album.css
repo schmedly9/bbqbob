@@ -40,7 +40,16 @@
 
 .links a {
     text-decoration: none;
-    color: rgba(228, 9, 137, 0.932);
+    color: green;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .links a {
+        clear: both;
+        flex-direction: column;
+        color: red;
+    }
 }
 
 .footer {
