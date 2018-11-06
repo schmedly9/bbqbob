@@ -5,8 +5,8 @@
 .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
-    margin-bottom: 0;
-    background-color: rgb(143, 228, 247);
+    margin-bottom: //0;
+        background-color: rgb(143, 228, 247);
 }
 
 @media (min-width: 768px) {
@@ -35,6 +35,16 @@
 .links {
     display: flex;
     justify-content: center;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    hover: blue;
+    clicked: white;
+    clear: all;
+
 
 }
 
